@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>一个非常简单的jQuery分页插件</title>
+
+</head>
+<body>
+
+<div class="pageBox"></div>
+</body>
+<script src="../lib/jquery-1.10.2.min.js"></script>
+<script src="../src/page/jquery.page.js"></script>
+<link rel="stylesheet" href="../src/page/jquery.page.css"/>
+<script>
+
+    $(".pageBox").createPage({
+        pageCount:20,
+        current:2,
+        pageTotal:100,
+        outPageWarn:"嘿嘿嘿",
+        pageClick:function(p){
+            console.log(p);
+        }
+    });
+</script>
+<!-- 代码部分end -->
+</html>

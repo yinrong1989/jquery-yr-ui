@@ -1,0 +1,14 @@
+a{cursor: pointer;}
+.pageBox{overflow: hidden; margin-bottom: 30px;}
+.pageBox .pageBox_left{float: left; overflow: hidden;}
+.pageBox .pageBox_left p{display: inline-block; margin-right: 10px; font-size: 14px; color:#555;}
+.pageBox .pageBox_left p em{color:#333;}
+.pageBox .pageBox_right{float: right; overflow: hidden;}
+.pageBox .pageBox_right li{display: inline-block; margin-left: 3px;vertical-align: middle;}
+.pageBox .pageBox_right li a,.pageBox .pageBox_right li input{width: 26px; height: 28px;display: inline-block; line-height: 28px; text-align: center; font-size: 14px; color:#333;border:1px solid #ddd; border-radius: 2px;}
+.pageBox .pageBox_right li a.active,.pageBox .pageBox_right li a.active:hover{border-color:#00C2C2; background: #00C2C2; color:#fff;}
+.pageBox .pageBox_right li.active,.pageBox .pageBox_right li.active:hover{border-color:#00C2C2; background: #00C2C2; color:#fff;}
+.pageBox .pageBox_right li a:hover{border-color:#00C2C2; color:#00C2C2;}
+.pageBox .pageBox_right li a.left,.pageBox .pageBox_right li a.right{color:#ccc;}
+.pageBox .pageBox_right li a.left:hover,.pageBox .pageBox_right li a.right:hover{color:#00C2C2;}
+.pageBox .pageBox_right li input{padding:0 10px; }
